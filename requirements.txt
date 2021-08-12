@@ -1,12 +1,7 @@
-Callable
-numpy 
-altair 
-caching
-streamlit
-pandas 
-subprocess
+altair==4.1.0 
+streamlit==0.84.1
+pandas==1.2.3
 glob
-configparser
-plotly.express 
-matplotlib.pyplot 
+configparser==5.0.2
+plotly.express==0.4.1
 os
