@@ -1,7 +1,7 @@
 altair==4.1.0 
 streamlit==0.84.1
 pandas==1.2.3
-glob
+glob2==0.7
 configparser==5.0.2
 plotly.express==0.4.1
-os
+
