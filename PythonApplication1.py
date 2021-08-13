@@ -40,7 +40,7 @@ if st.button("Submit"):
 
 st.write(pd.DataFrame(get_data()))
 pd.DataFrame(get_data()).to_csv("C:/Users/" + user_name + "/OneDrive - Intel Corporation/Desktop/DEBUG/query/InputFile.csv", index=False)
-'''
+
 if st.button("Refresh"):
     caching.clear_cache()
 
@@ -123,4 +123,4 @@ if st.button("Plot"):
 
     for unit in parameters["parameter"].tolist() :
          plot_Distribution(unit)
-'''
+
